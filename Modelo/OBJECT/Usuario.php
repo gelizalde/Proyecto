@@ -63,5 +63,10 @@ class Usuario {
     {
         return $this->bandera;
     }
+
+    public function getCorreo()
+    {
+        return $this->correo;
+    }
 }
 ?>

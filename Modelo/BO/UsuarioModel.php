@@ -1,6 +1,6 @@
 <?php
 
-require_once "Modelo/DAO/UsuarioDAO.php";
+require_once $_SERVER['DOCUMENT_ROOT'].Constantes::ruta."/Modelo/DAO/UsuarioDAO.php";
 class usuarioModel {
 
     public function validarUsuario($usuario){
@@ -10,7 +10,9 @@ class usuarioModel {
     }
 
     public function crearUsuario($usuario){
-        
+        $objDao = new UsuarioDAO();
+        $respuesta  = $objDao->escribirArchivo($usuario);
+        return $respuesta;
     }
 }
     
