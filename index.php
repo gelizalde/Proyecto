@@ -11,7 +11,7 @@
     
         include_once 'Vista/principal.php';
     }else if(isset($_POST['usuario']) && isset($_POST['pass'])){
-        $userx =  $_POST['usuario'];
+        $userx =  sha1($_POST['usuario']);
         $passx = sha1($_POST['pass']);
         $objModel = new usuarioModel();  
         $usuario = new Usuario("","","","","","", $userx,$passx);
@@ -26,4 +26,5 @@
     }else{
         include_once 'Vista/inicio.php';
     }
+  
 ?>

@@ -1,2 +1,1 @@
-gael,elizalde,garcia,gelizalde@hotmail.com,12345678,gelizalde,711383a59fda05336fd2ccf70c8059d1523eb41a
-Aurora,Ildefonso,Elizalde,aurora@hotmail.com,22334455,auid,c7b312586365569611ad609ab8ebc881d390c263
+Gael,Elizalde,Garcia,gelizalde@hotmail.com,5524050745,083c84f794e39aa34e4af1c5b910aecc77a4dac0,711383a59fda05336fd2ccf70c8059d1523eb41a

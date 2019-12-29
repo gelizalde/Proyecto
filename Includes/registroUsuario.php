@@ -25,7 +25,7 @@
         $correo = trim($_POST['email']);
         $telefono = trim($_POST['telefono']);
         $bandera = "";
-        $usuario = trim($_POST['user']);
+        $usuario = sha1(trim($_POST['user']));
         $contrasenia = sha1(trim($_POST['password']));
 
 
